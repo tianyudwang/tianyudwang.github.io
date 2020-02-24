@@ -10,4 +10,7 @@ redirect_from:
 
 + I am a PhD student in the [Department of Electrical and Computer Engineering](http://www.ece.ucsd.edu/) at [University of California, San Diego](https://ucsd.edu/), advised by Prof. [Nikolay Atanasov](https://natanaso.github.io/). 
 
-+ I received my Bachelor’s Degree at [Haverford College](https://www.haverford.edu/). My undergraduate research advisor is Prof. [Walter Smith](https://www.haverford.edu/users/wsmith). 
++ I received my a B.S. degree in Physics at [Haverford College](https://www.haverford.edu/), Haverford, PA in 2016.  
+
+# Recent News
++ Jan 2020. One paper accepted to ICRA 2020.

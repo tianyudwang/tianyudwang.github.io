@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tianyu Wang"
   avatar           : "profile.png"
-  bio              : "Ph.D. student, Department of Electrical and Computer Engineering, UCSD"
+  bio              : "Ph.D. student, Department of Electrical and Computer Engineering, University of California, San Diego"
   location         : "San Diego, California"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -243,7 +243,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
