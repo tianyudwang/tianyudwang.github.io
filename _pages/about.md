@@ -10,7 +10,7 @@ redirect_from:
 
 + I am a PhD student in the [Department of Electrical and Computer Engineering](http://www.ece.ucsd.edu/) at [University of California, San Diego](https://ucsd.edu/), advised by Prof. [Nikolay Atanasov](https://natanaso.github.io/). 
 
-+ I received my a B.S. degree in Physics at [Haverford College](https://www.haverford.edu/), Haverford, PA in 2016.  
++ I received my B.S. degree in Physics at [Haverford College](https://www.haverford.edu/), Haverford, PA in 2016.  
 
 # Recent News
 + Jan 2020. One paper accepted to ICRA 2020.
