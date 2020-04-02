@@ -1,7 +1,7 @@
 ---
 title: "Learning Navigation Cost from Demonstrations in Partially Observable Environments"
 collection: publications
-permalink: /publication/ICRA20
+permalink: /publications/ICRA20
 date: 2020-3-23
 venue: 'International Conference on Robotics and Automation (ICRA)'
 

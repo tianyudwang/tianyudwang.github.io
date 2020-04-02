@@ -1,7 +1,7 @@
 ---
 title: "Large Scale Model Predictive Control with Neural Networks and Primal Active Sets"
 collection: publications
-permalink: /publication/NNMPC
+permalink: /publications/NNMPC
 date: 2019-10-23
 venue: 'In submission'
 
