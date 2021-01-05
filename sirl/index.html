@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Inverse Reinforcement Learning for Autonomous Navigation via Differentiable Semantic Mapping and Planning">
+    <meta name="author" content="Tianyu Wang,
+                                Vikas Dhiman,
+                                Nikolay Atanasov">
+
+    <title>Inverse Reinforcement Learning for Autonomous Navigation via Differentiable Semantic Mapping and Planning</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+    <!--    <link rel="icon" href="img/favicon.gif" type="image/gif">-->
+</head>
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <h2>Inverse Reinforcement Learning for Autonomous Navigation<br>via Differentiable Semantic Mapping and Planning</h2>
+    
+<!--            <p class="abstract">An interpretable, data-efficient, and scalable neural scene representation.</p>-->
+    <hr>
+    <p class="authors">
+        <a href="https://tianyudwang.github.io/"> Tianyu Wang</a>,
+        <a href="https://vikasdhiman.info/"> Vikas Dhiman</a>,
+        <a href="https://natanaso.github.io/"> Nikolay Atanasov</a>
+    </p>
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/abs/2101.00186">Paper</a>
+        <a class="btn btn-primary" href="https://github.com/">Code (To be released)</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <div class="vcontainer">
+            <iframe class="video" src="https://www.youtube.com/embed/CqIcN3j_NVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <p>
+            This paper focuses on inverse reinforcement learning for autonomous navigation using distance and semantic category observations. The objective is to infer a cost function that explains demonstrated behavior while relying only on the expert's observations and state-control trajectory. We develop a map encoder, that infers semantic category probabilities from the observation sequence, and a cost encoder, defined as a deep neural network over the semantic features. Since the expert cost is not directly observable, the model parameters can only be optimized by differentiating the error between demonstrated controls and a control policy computed from the cost estimate. We propose a new model of expert behavior that enables error minimization using a closed-form subgradient computed only over a subset of promising states via a motion planning algorithm. Our approach allows generalizing the learned behavior to new environments with new spatial configurations of the semantic categories. We analyze the different components of our model in a minigrid environment. We also demonstrate that our approach learns to follow traffic rules in the autonomous driving CARLA simulator by relying on semantic observations of buildings, sidewalks, and road lanes. 
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Paper</h2>
+        <hr>
+        <div>
+            <div class="list-group">
+                <a href="https://arxiv.org/abs/2101.00186"
+                   class="list-group-item">
+                    <img src="img/paper_thumbnail.png" style="width:100%; margin-right:-20px; margin-top:-10px;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <h2>Bibtex</h2>
+        <hr>
+        <div class="bibtexsection">
+            @article{Wang2021sirl,
+                author = {Wang, Tianyu and Dhiman, Vikas and Atanasov, Nikolay},
+                title = {Inverse Reinforcement Learning for Autonomous Navigation 
+                         via Differentiable Semantic Mapping and Planning},
+                journal={arXiv preprint arXiv:2101.00186},
+                year={2021}
+            }
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Acknowledgements</h2>
+        <p>We gratefully acknowledge support from NSF CRII IIS-1755568 and ONR SAI N00014-18-1-2828. This webpage template was borrowed from <a href="https://vsitzmann.github.io/siren/">SIREN</a>.
+        </p>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
