@@ -6,6 +6,10 @@ author_profile: true
 ---
 
 <br>
+<b>[Inverse Reinforcement Learning for Autonomous Navigation via Differentiable Semantic Mapping and Planning](http://tianyudwang.github.io/sirl)</b> <br> 
+<b>Tianyu Wang</b>, Vikas Dhiman, Nikolay Atanasov.
+<i>Under review</i>.
+
 <b>[Learning Navigation Costs from Demonstrations with Semantic
 Observations](http://tianyudwang.github.io/publications/L4DC20)</b> <br> 
 <b>Tianyu Wang</b>, Vikas Dhiman, Nikolay Atanasov.
@@ -17,4 +21,4 @@ Observations](http://tianyudwang.github.io/publications/L4DC20)</b> <br>
 
 <b>[Large Scale Model Predictive Control with Neural Networks and Primal Active Sets](http://tianyudwang.github.io/publications/NNMPC)</b> <br> 
 Steven Chen, <b>Tianyu Wang</b>, Nikolay Atanasov, Vijay Kumar, Manfred Morari.
-<i>ArXiv 2019</i>.
+<i>Under review</i>.
